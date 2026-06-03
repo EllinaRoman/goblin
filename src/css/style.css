@@ -17,6 +17,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   height: 100vh;
   margin: 0;
 }
@@ -24,4 +25,11 @@ body {
 img {
 width: 150px;
 height: auto;
+}
+
+.count-miss {
+  display: flex;
+  flex-direction: center;
+  gap: 20px;
+  margin-bottom: 20px;
 }
