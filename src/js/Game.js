@@ -30,6 +30,7 @@ export default class Game {
 
   click() {
     this.goblin.img.addEventListener("click", () => {
+      if (this.miss >= 5) return;
       this.count++;
       this.countText.textContent = `Счёт: ${this.count}`;
       this.goblin.img.remove();
